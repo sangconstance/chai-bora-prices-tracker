@@ -21,7 +21,7 @@ const Navigation = () => {
             ChaiBora
           </Link>
           
-          <div className="hidden md:flex space-x-1">
+          <div className="flex space-x-1">
             {navItems.map((item) => (
               <Link key={item.href} to={item.href}>
                 <Button

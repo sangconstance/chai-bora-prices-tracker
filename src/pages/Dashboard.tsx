@@ -6,7 +6,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Dashboard = () => {
   const buyers = [
-    { name: "KETEPA", price: 58, location: "Kericho", change: "+2.5", trending: "up" },
+    { name: "KTDA-Kapset", price: 58, location: "Bomet", change: "+2.5", trending: "up" },
     { name: "Unilever Kenya", price: 56, location: "Nairobi", change: "+1.8", trending: "up" },
     { name: "Finlays Kenya", price: 54, location: "Kericho", change: "-0.5", trending: "down" },
     { name: "Eastern Produce", price: 53, location: "Nyeri", change: "+0.8", trending: "up" },
