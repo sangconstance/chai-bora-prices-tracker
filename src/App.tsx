@@ -9,8 +9,8 @@ import Trends from "./pages/Trends";
 import Alerts from "./pages/Alerts";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
 
 const queryClient = new QueryClient();
 
