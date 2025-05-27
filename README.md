@@ -1,18 +1,27 @@
-# 🍃 ChaiBora – Tea Price Tracker for Kenyan Farmers
+# 🍃 ChaiBora – Empowering Smallholder Tea Farmers
 
-ChaiBora is a simple, powerful, and farmer-first web platform designed to help Kenyan smallholder tea farmers stay informed. It enables real-time price tracking, historical insights, and price alerts to empower better decision-making and boost incomes. Born in Kericho, built for the entire tea-growing community.
+ChaiBora is a simple, powerful, and community-focused web platform designed to help Kenyan smallholder tea farmers stay informed. It enables real-time price tracking, historical insights, and price alerts to empower better decision-making and boost incomes. Born in Kericho, built for the entire tea-growing community.
 
 > *“When farmers thrive, communities prosper.”*
 
 ---
 
+## 🌐 Live Demo
+
+🔗 https://chai-bora-prices-tracker.vercel.app/
+
+---
+
 ## 🌟 Features
 
-* 📊 **Live Prices**: Instantly compare factory tea prices from KETEPA, Unilever, and more.
-* 📈 **Historical Trends**: Interactive charts that reveal pricing patterns.
-* 🔔 **Custom Alerts**: Get notified via SMS or app when your target price is hit.
-* 🏆 **Best Daily Offers**: Auto-highlight the highest offer daily.
-* 🧑‍💼 **Buyer Listings**: View and compare buyers' current offers.
+- ✅ Supabase-powered **Authentication**
+- 📊 **Live Prices**: Instantly compare factory tea prices from KETEPA, Unilever, and more
+- 📈 **Historical Trends**: Interactive charts that reveal pricing patterns
+- 🛎️ **Custom Alerts**: Get notified via SMS or app when your target price is hit
+- 🏆 **Best Daily Offers**: Auto-highlight the highest offer daily
+- 🧑‍💼 **Buyer Listings**: View and compare buyers' current offers
+- 🌍 **Responsive design** for mobile farmers
+- 🧠 Built with **React + Vite + Tailwind + shadcn/ui**
 
 ---
 
@@ -24,31 +33,46 @@ ChaiBora is a simple, powerful, and farmer-first web platform designed to help K
 
 ---
 
+## 🧪 Prototype
+Check Out Chai-Bora's Prototype here:
+(https://www.canva.com/design/DAGoflNoyWM/m9MsA_uK-Ve6xMo7YkSI2Q/edit?utm_content=DAGoflNoyWM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+---
+
+## 📊 Pitch Deck
+Also check out our pitch deck down below:
+🎤 (https://www.canva.com/design/DAGoias5qVU/9PIxH0Va58A0401c1YK50A/edit?utm_content=DAGoias5qVU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+---
+
 ## 🛠️ Tech Stack
 
-* **Frontend**: React, TypeScript, Tailwind CSS, Vite
+* **Frontend**: React, TypeScript, Tailwind CSS, Vite, shadcn/ui
 * **Data & Charts**: Recharts
 * **Backend (Planned)**: Supabase (for Auth & Realtime DB)
 * **State Management**: React Context + Hooks
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
-```
+```bash
+/
 ├── public/                 # Static assets
 ├── src/
-│   ├── components/         # UI components
+│   ├── pages/              # Page components (Login, Dashboard, etc.)
+│   ├── components/         # Reusable UI elements
 │   ├── hooks/              # Custom React hooks
 │   ├── integrations/       # External API logic (Supabase, etc.)
-│   ├── lib/                # Utility functions and services
-│   ├── pages/              # Application views
-│   ├── App.tsx             # Route wrapper
-│   └── main.tsx            # React root
+│   ├── lib/                # Supabase client & utilities
+│   └── App.tsx             # Main app router
 ├── supabase/               # Supabase configuration
 ├── .env                    # Environment variables
 ├── tailwind.config.ts      # Styling config
 ├── vite.config.ts          # Vite config
+├── README.md
+├── package.json
+└── vite.config.ts
 ```
 
 ---
@@ -97,12 +121,6 @@ Pull requests are welcome! Let’s grow this platform together.
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
 ## ❤️ A Note from the Creator
 
 > I'm from Kericho, born and raised. I've seen firsthand how smallholder tea farmers struggle with price uncertainty. ChaiBora is my way of helping—by bringing the power of data and digital tools back to the grassroots.
@@ -113,19 +131,37 @@ MIT License
 
 ### 🔮 MGX (Logo Generator)
 
-**Prompt**: "Design a minimal, modern logo for a platform called ChaiBora that tracks tea prices. The logo should feature elements of a tea leaf and a data graph. Color palette: green, gold, and white. Style: Clean and symbolic."
+**Prompt**: 
+"Design a modern mobile app UI for an app called "ChaiBora", made for small-scale tea farmers in Kericho. Use a fresh, calming green tea color palette. The app should include the following:
 
-### 🎨 Canva (Pitch Deck)
+1. Welcome Screen – Background image or soft gradient of tea fields. Title: “Track tea prices. Sell smart.” Two buttons: “Login” (filled green) and “Sign Up” (outlined). Footer: “Empowering Tea Farmers — Powered by Vibe Coding Hackathon”.
 
-**Prompt**: "Create a 12-slide pitch deck for a startup called ChaiBora, a tea price tracking platform for Kenyan farmers. Include: Intro, Problem, Solution, Product, Target Market, Market Size, Competitors, Competitive Advantage, Roadmap, Revenue Model, Go To Market, Ask, Team. Style: Conversational, local impact-focused."
+2. Dashboard Screen – Show current tea market prices (in a card), a chart of tea price trends over the last 7 days, and a “Set Alert” button. Include a top nav with “Dashboard,” “Alerts,” and “Profile”.
 
-### 💬 Lovable.ai (Messaging/Tone)
+3. Alerts Screen – Let users input a price threshold (e.g. alert me when tea hits Ksh 25/kg). Include toggle for SMS or WhatsApp alerts and a save button.
 
-**Prompt**: "Make this pitch friendly, fun, and authentic. Use an empowering tone for farmers. Include local slang or relatable phrasing that Kenyan audiences would appreciate."
+4. Profile Screen – Display name, phone number, location (Kericho), and farm size. Include an edit button and logout option."
 
-### 🧩 ChatGPT (Development/Structure/README)
 
-**Prompt**: "Help build a README for a React + Supabase tea price tracker web app with sections on features, tech stack, folder structure, and developer note. Also add SDG alignment and a local founder’s personal note."
+###  Lovable.ai 
+
+**Prompt**: 
+Prompt 1:
+"Build the homepage for an app called ChaiBora. This is a tea pricing platform for farmers in Kenya. Use a green-themed background with headline text 'Track tea prices. Sell smart.' Include Login and Sign Up buttons. Add a footer that says: 'Powered by Vibe Coding Hackathon'."
+
+Prompt 2:
+"Now add a dashboard page titled 'Today’s Market Prices'. Show a scrollable list of buyers like KETEPA with price per kg and location (e.g. Kericho). Highlight the best offer at the bottom."
+
+Prompt 3:
+"Add a price trends page with a 7-day price chart using dummy data. Include a toggle for '7 Days' and '30 Days'."
+
+Prompt 4:
+"Add a form where users can set a price alert. Input field for price threshold, dropdown to choose a buyer, and a toggle to receive SMS or push notifications. Button to save alert."
+
+Prompt 5:
+"Create a user profile settings page with name, phone number, preferred location (dropdown), and toggles for alerts."
+
+
 
 ---
 
@@ -138,14 +174,6 @@ Small-scale tea farmers in Kenya often operate without clear, timely access to p
 ### 💡 Solution
 
 ChaiBora solves this by delivering real-time tea prices, trend insights, and buyer comparisons—all accessible from a mobile-friendly web app. Farmers can even set price alerts to stay ahead.
-
----
-
-## 📡 Deployment & Live Demo
-
-Check out the live version of Chai Bora Prices Tracker:  
-👉 [https://chai-bora.vercel.app](https://chai-bora.vercel.app)  
-<sub>Replace this with your actual deployed URL if needed.</sub>
 
 ---
 
