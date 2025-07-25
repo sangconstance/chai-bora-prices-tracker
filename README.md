@@ -127,44 +127,6 @@ Pull requests are welcome! Let’s grow this platform together.
 
 ---
 
-## 🧠 Documented Prompts by Platform
-
-### 🔮 MGX (Logo Generator)
-
-**Prompt**: 
-"Design a modern mobile app UI for an app called "ChaiBora", made for small-scale tea farmers in Kericho. Use a fresh, calming green tea color palette. The app should include the following:
-
-1. Welcome Screen – Background image or soft gradient of tea fields. Title: “Track tea prices. Sell smart.” Two buttons: “Login” (filled green) and “Sign Up” (outlined). Footer: “Empowering Tea Farmers — Powered by Vibe Coding Hackathon”.
-
-2. Dashboard Screen – Show current tea market prices (in a card), a chart of tea price trends over the last 7 days, and a “Set Alert” button. Include a top nav with “Dashboard,” “Alerts,” and “Profile”.
-
-3. Alerts Screen – Let users input a price threshold (e.g. alert me when tea hits Ksh 25/kg). Include toggle for SMS or WhatsApp alerts and a save button.
-
-4. Profile Screen – Display name, phone number, location (Kericho), and farm size. Include an edit button and logout option."
-
-
-###  Lovable.ai 
-
-**Prompt**: 
-Prompt 1:
-"Build the homepage for an app called ChaiBora. This is a tea pricing platform for farmers in Kenya. Use a green-themed background with headline text 'Track tea prices. Sell smart.' Include Login and Sign Up buttons. Add a footer that says: 'Powered by Vibe Coding Hackathon'."
-
-Prompt 2:
-"Now add a dashboard page titled 'Today’s Market Prices'. Show a scrollable list of buyers like KETEPA with price per kg and location (e.g. Kericho). Highlight the best offer at the bottom."
-
-Prompt 3:
-"Add a price trends page with a 7-day price chart using dummy data. Include a toggle for '7 Days' and '30 Days'."
-
-Prompt 4:
-"Add a form where users can set a price alert. Input field for price threshold, dropdown to choose a buyer, and a toggle to receive SMS or push notifications. Button to save alert."
-
-Prompt 5:
-"Create a user profile settings page with name, phone number, preferred location (dropdown), and toggles for alerts."
-
-
-
----
-
 ## 🧩 Problem & Solution Summary
 
 ### 📍 Problem
@@ -183,7 +145,6 @@ Have feedback, questions, or collaboration ideas?
 I'd love to hear from you!
 
 - **Email:** constancetetio@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/constancesang/
 
 ---
 
