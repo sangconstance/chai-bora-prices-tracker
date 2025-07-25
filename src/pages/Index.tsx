@@ -97,7 +97,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="relative z-10 text-center py-6 border-t border-white/20">
-        <p className="text-tea-100">Powered by Vibe Coding Hackathon</p>
+        <p className="text-tea-100">ChaiBora. All rights reserved</p>
       </footer>
     </div>
   );
